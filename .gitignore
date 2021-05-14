@@ -1,0 +1,7 @@
+/.idea
+/dist
+/node_modules
+/output
+/.env
+/.tsbuildinfo
+/package-lock.json

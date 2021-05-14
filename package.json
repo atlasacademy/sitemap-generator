@@ -1,0 +1,27 @@
+{
+  "name": "sitemap-generator",
+  "version": "0.0.1",
+  "description": "Generates sitemap.xml for atlasacademy.io",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^14.6.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@atlasacademy/api-connector": "^3.0.0",
+    "@types/mysql": "^2.15.18",
+    "@types/object-hash": "^2.1.0",
+    "axios": "^0.21.1",
+    "dotenv": "^9.0.2",
+    "mysql": "^2.18.1",
+    "object-hash": "^2.1.1",
+    "sitemap": "^7.0.0"
+  }
+}
