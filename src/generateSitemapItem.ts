@@ -7,7 +7,7 @@ function formatDate(date: Date): string {
             return value.toString().padStart(length, '0');
         },
         year = pad(date.getFullYear(), 4),
-        month = pad(date.getMonth(), 2),
+        month = pad(date.getMonth()+1, 2),
         day = pad(date.getDate(), 2),
         hour = pad(date.getHours(), 2),
         minute = pad(date.getMinutes(), 2),
