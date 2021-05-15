@@ -13,7 +13,7 @@ function formatDate(date: Date): string {
         minute = pad(date.getMinutes(), 2),
         second = pad(date.getSeconds(), 2);
 
-    return `${year}/${month}/${day} ${hour}:${minute}:${second}`;
+    return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
 }
 
 function query(sql: string, values: string[]): Promise<any[]> {
