@@ -22,6 +22,10 @@ const links: SitemapItemLoose[] = [],
 (async () => {
     console.log(`HOME ...`);
     links.push(await generateSitemapItem('/db/', EnumChangefreq.NEVER, null));
+    links.push(await generateSitemapItem('/drop-lookup/', EnumChangefreq.NEVER, null));
+    links.push(await generateSitemapItem('/paper-moon/', EnumChangefreq.NEVER, null));
+    links.push(await generateSitemapItem('/drop-serializer/', EnumChangefreq.NEVER, null));
+    links.push(await generateSitemapItem('/bingo/', EnumChangefreq.NEVER, null));
 
     for (let i in regions) {
         const region = regions[i];
