@@ -17,7 +17,7 @@ import servants from "./servants";
 import wars from "./wars";
 
 const links: SitemapItemLoose[] = [],
-    regions = [Region.JP, Region.NA];
+    regions = [Region.JP, Region.NA, Region.CN, Region.KR, Region.TW];
 
 (async () => {
     console.log(`HOME ...`);
