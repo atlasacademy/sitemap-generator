@@ -1,4 +1,4 @@
-FROM node:14.5
+FROM node:16
 MAINTAINER sadisticsolutione@gmail.com
 
 ENV REPO="" \

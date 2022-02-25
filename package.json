@@ -10,18 +10,18 @@
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
-    "@types/node": "^14.6.0",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.0.2"
+    "@types/node": "^16.11.26",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
   },
   "dependencies": {
-    "@atlasacademy/api-connector": "^3.0.0",
-    "@types/mysql": "^2.15.18",
-    "@types/object-hash": "^2.1.0",
-    "axios": "^0.21.1",
-    "dotenv": "^9.0.2",
+    "@atlasacademy/api-connector": "^3.0.96",
+    "@types/mysql": "^2.15.21",
+    "@types/object-hash": "^2.2.1",
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
     "mysql": "^2.18.1",
-    "object-hash": "^2.1.1",
-    "sitemap": "^7.0.0"
+    "object-hash": "^3.0.0",
+    "sitemap": "^7.1.1"
   }
 }
