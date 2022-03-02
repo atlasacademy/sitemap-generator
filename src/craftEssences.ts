@@ -15,7 +15,7 @@ export default async function (region: Region): Promise<SitemapItemLoose[]> {
 
     for (let i in craftEssences) {
         const craftEssence = craftEssences[i],
-            base = `/db/${region}/craft-essences/${craftEssence.collectionNo}`;
+            base = `/db/${region}/craft-essence/${craftEssence.collectionNo}`;
 
         console.log(`CE: ${craftEssence.collectionNo}`);
 
